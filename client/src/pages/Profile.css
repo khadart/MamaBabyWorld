@@ -1,0 +1,21 @@
+.profile-header {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 28px;
+    right: 250px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 lightgray;
+}
+.profile-btns{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+.nav-profile:hover .profile-header{
+    display: block;
+
+}

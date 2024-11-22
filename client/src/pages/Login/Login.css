@@ -1,0 +1,74 @@
+.login-container {
+    margin: 200px auto;
+    width: 20vw;
+    height: 45vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+
+    .login-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-weight: 500;
+    }
+
+    .email-input {
+        width: 18vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .password-input {
+        width: 18vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+
+
+    }
+
+    .signin {
+        background-color: white;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+
+    .errors {
+        margin: 0px;
+        font-size: 12px;
+        color: red;
+    }
+    .signup{
+        background-color: white;
+        padding:8px;
+        margin-top: 10.5px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 450;
+    
+    }
+    .login-btns{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .forgot{
+        text-align: center;
+    }
+
+}
