@@ -1,7 +1,8 @@
+
 .register-container{
     margin: 200px auto;
     width: 20vw;
-    height: 45vh;
+    height: 370px;
     border: 1px solid lightgray;
     border-radius: 10px;
     padding: 10px;
@@ -53,4 +54,321 @@
         border: 1px solid lightgrey;
         border-radius: 3px;
     }
+    .text-login{
+        text-align: center;
+    }
+}
+
+@media  (max-width:575px){
+    .register-container{
+        margin: 200px auto;
+        width: 60vw;
+        height: 370px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+    
+        .register-inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            font-weight: 500;
+        }
+        .username-input{
+            width: 50vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .email-input{
+            width: 50vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .password-input{
+            width: 50vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .errors {
+            margin: 0px;
+            font-size: 12px;
+            color: red;
+        }
+    
+        .register{
+            background-color: white;
+            padding: 8px;
+            font-weight: 500;
+            margin-top: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+        .text-login{
+            text-align: center;
+        }
+    }
+      
+}
+
+@media (min-width:575px) and (max-width:768px){ 
+    .register-container{
+        margin: 200px auto;
+        width: 55vw;
+        height: 370px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+    
+        .register-inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            font-weight: 500;
+        }
+        .username-input{
+            width: 45vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .email-input{
+            width: 45vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .password-input{
+            width: 18vw;
+            padding: 8px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .errors {
+            margin: 0px;
+            font-size: 12px;
+            color: red;
+        }
+    
+        .register{
+            background-color: white;
+            padding: 8px;
+            font-weight: 500;
+            margin-top: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+        .text-login{
+            text-align: center;
+        }
+    }  
+}
+
+@media  (min-width:768px) and (max-width: 992px){
+   
+.register-container{
+    margin: 200px auto;
+    width: 40vw;
+    height: 370px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+
+    .register-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-weight: 500;
+    }
+    .username-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .email-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .password-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .errors {
+        margin: 0px;
+        font-size: 12px;
+        color: red;
+    }
+
+    .register{
+        background-color: white;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+    .text-login{
+        text-align: center;
+    }
+}
+ 
+}
+@media (min-width:992px) and (max-width:1200px){
+    
+.register-container{
+    margin: 200px auto;
+    width: 40vw;
+    height: 370px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+
+    .register-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-weight: 500;
+    }
+    .username-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .email-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .password-input{
+        width: 35vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .errors {
+        margin: 0px;
+        font-size: 12px;
+        color: red;
+    }
+
+    .register{
+        background-color: white;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+    .text-login{
+        text-align: center;
+    }
+}
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+   
+.register-container{
+    margin: 200px auto;
+    width: 30vw;
+    height: 370px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 14px 0px rgba(206, 237, 237, 0.811);
+
+    .register-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-weight: 500;
+    }
+    .username-input{
+        width: 25vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .email-input{
+        width: 25vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .password-input{
+        width: 25vw;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .errors {
+        margin: 0px;
+        font-size: 12px;
+        color: red;
+    }
+
+    .register{
+        background-color: white;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+    .text-login{
+        text-align: center;
+    }
+} 
 }

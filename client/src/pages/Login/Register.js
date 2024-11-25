@@ -30,7 +30,7 @@ const Register = () => {
   return (
     <div className="register-container">
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h2>Register</h2>
+        <h2 className="text-login">Register</h2>
         <div className="register-inputs">
           <label>Username</label>
           <input
